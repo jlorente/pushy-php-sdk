@@ -19,6 +19,7 @@
 
 namespace Jlorente\Pushy;
 
+use GuzzleHttp\RequestOptions;
 use Jlorente\Pushy\Core\Api as CoreApi;
 
 /**

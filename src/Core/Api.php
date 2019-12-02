@@ -154,13 +154,14 @@ abstract class Api implements ApiInterface
 
         $stack->push(Middleware::mapRequest(function (RequestInterface $request) {
                     $uri = $request->getUri();
-                    $uri .= ( $uri ? '&' : '' ) . http_build_query([
+                    $query = $uri->getQuery();
+                    $query .= ( $query ? '&' : '' ) . http_build_query([
                                 'api_key' => $this->config->getApiKey()
                     ]);
 
                     return new Request(
                             $request->getMethod(),
-                            $uri,
+                            $uri->withQuery($query),
                             $request->getHeaders(),
                             $request->getBody(),
                             $request->getProtocolVersion()
