@@ -1,4 +1,4 @@
-Pushy SDK
+Pushy PHP SDK
 =============
 A PHP package to access the Pushy API by a comprehensive way.
 
