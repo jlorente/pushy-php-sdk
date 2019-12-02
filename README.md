@@ -9,7 +9,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 With Composer installed, you can then install the extension using the following commands:
 
 ```bash
-$ php composer.phar require jlorente/pushy
+$ php composer.phar require jlorente/pushy-php-sdk
 ```
 
 or add 
