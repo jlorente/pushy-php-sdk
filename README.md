@@ -17,7 +17,7 @@ or add
 ```json
 ...
     "require": {
-        "jlorente/pushy": "*"
+        "jlorente/pushy-php-sdk": "*"
     }
 ```
 
