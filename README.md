@@ -25,10 +25,10 @@ to the ```require``` section of your `composer.json` file.
 
 ## Configuration
 
-You can set the SECRET_API_KEY as environment variables or add them later 
+You can set the PUSHY_API_KEY as environment variables or add them later 
 on Pushy class instantiation.
 
-The name of the environment var is PUSHY_SECRET_API_KEY.
+The name of the environment var is PUSHY_API_KEY.
 
 ## Usage
 
